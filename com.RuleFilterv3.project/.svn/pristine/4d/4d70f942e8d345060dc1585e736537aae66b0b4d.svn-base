@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"F6333-Establish Operational Audit Functionality - June Release.feature","US20931 - Display Target table Data","ERROR","2019-03-18T17:09:51.792+05:30","0.0","31.9"
+"F6333-Establish Operational Audit Functionality - June Release.feature","US20932 - Ability to Sort Target table data","ERROR","2019-03-18T17:09:51.791+05:30","0.0","371.07"
+"F6333-Establish Operational Audit Functionality - June Release.feature","US24466 - Dynamic filter for Assignee on Target view & Admin should have role of AdminOps","ERROR","2019-03-18T17:09:51.791+05:30","0.0","142.99"

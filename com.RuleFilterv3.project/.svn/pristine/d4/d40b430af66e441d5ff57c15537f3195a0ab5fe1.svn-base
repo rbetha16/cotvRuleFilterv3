@@ -1,0 +1,7 @@
+#
+#Mon Mar 18 17:15:01 IST 2019
+platform=LINUX
+version=72.0.3626.81
+unexpectedAlertBehaviour=ignore
+pageLoadStrategy=normal
+browserName=chrome

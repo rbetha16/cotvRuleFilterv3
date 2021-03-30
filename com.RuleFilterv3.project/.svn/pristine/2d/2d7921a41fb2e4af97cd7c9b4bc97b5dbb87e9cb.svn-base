@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="| iht_ittest05 | CPT Group |" time="0" tests="8" errors="2" skipped="2" failures="0">
+  <properties>
+    <property name="webdriver.remote.os" value="LINUX"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_25\jre\bin"/>
+    <property name="java.vm.version" value="25.25-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="H:\April2019\com.ZTA.project"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="H:\April2019\com.ZTA.project"/>
+    <property name="java.runtime.version" value="1.8.0_25-b18"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_25\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\TRINAT~1.KUM\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="H:\April2019\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6997784872883873120.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Informatica\10.2.0\clients\tools\datadirect;C:\Informatica\10.2.0\clients\tools\odbcdrv;C:\Informatica\10.2.0\clients\tools\jdbcdrv;C:\Informatica\10.2.0\clients\tools\sharedlibs;C:\Informatica\9.6.1\clients\tools\datadirect;C:\Informatica\9.6.1\clients\tools\odbcdrv;C:\Informatica\9.6.1\clients\tools\jdbcdrv;C:\Informatica\9.1.0\DataTransformation\bin;C:\Informatica\9.1.0\clients\tools\datadirect;C:\Informatica\9.1.0\clients\DeveloperClient\bin;C:\Informatica\9.1.0\clients\java\jre\bin\server;C:\oracle\product\10.2.0\client_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Citrix\System32\;C:\Program Files\Citrix\System32\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Shoreline Communications\ShoreWare Client\;c:\Program Files (x86)\Java\jdk1.7.0_71\bin;C:\Program Files\Citrix\ICAService\;C:\Program Files (x86)\Common Files\Citrix\System32;C:\Program Files (x86)\Shoreline Communications\ShoreWare Client\win64;C:\Program Files\nodejs\;C:\Program Files (x86)\HP\Unified Functional Testing\bin;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files\Citrix\Virtual Desktop Agent\;C:\Program Files (x86)\HP\Unified Functional Testing\\bin64;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="webdriver.remote.driver" value="chrome"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\trinath.kumar"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="trinath.kumar"/>
+    <property name="java.class.path" value="/C:/eclipse-jee-mars-2-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="webdriver.remote.url" value="http://usddccntr05.cotiviti.com:4444/wd/hub"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_25\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -s H:\Bamboo\settings.xml verify -Dwebdriver.remote.url=http://usddccntr05.cotiviti.com:4444/wd/hub -Dwebdriver.remote.driver=chrome -Dwebdriver.remote.os=LINUX -Dserenity.driver.capabilities=enableVNC:true;name:CPT-ICD"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_25"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_25\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_25\jre\classes;C:\Program Files (x86)\HP\Unified Functional Testing\bin\java_shared\classes;C:\Program Files (x86)\HP\Unified Functional Testing\bin\java_shared\classes\jasmine.jar"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="H:\April2019\com.ZTA.project\EMBEDDED"/>
+    <property name="serenity.driver.capabilities" value="enableVNC:true;name:CPT-ICD"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="| iht_ittest05 | CPT Group |" classname="| iht_ittest05 | CPT Group |" time="0"/>
+  <testcase name="| iht_ittest05 | CPT Group |" classname="| iht_ittest05 | CPT Group |" time="0">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@class=&apos;ui-grid-header-cell-row&apos;])[2]//span[.=&apos;CPT Group&apos;]&quot;}&#10;  (Session info: chrome=72.0.3626.81)&#10;  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 3.10.0-957.1.3.el7.x86_64 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.13 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;dev-xd019&apos;, ip: &apos;10.130.12.50&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:37070}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.Xnjw7v}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.81, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 40ae7821d6a6a2054f6cc322625695ef&#10;*** Element info: {Using=xpath, value=(//div[@class=&apos;ui-grid-header-cell-row&apos;])[2]//span[.=&apos;CPT Group&apos;]}" type="net.serenitybdd.core.exceptions.SerenityManagedException"><![CDATA[net.serenitybdd.core.exceptions.SerenityManagedException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='ui-grid-header-cell-row'])[2]//span[.='CPT Group']"}
+  (Session info: chrome=72.0.3626.81)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 3.10.0-957.1.3.el7.x86_64 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.13 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'dev-xd019', ip: '10.130.12.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:37070}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.Xnjw7v}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.81, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 40ae7821d6a6a2054f6cc322625695ef
+*** Element info: {Using=xpath, value=(//div[@class='ui-grid-header-cell-row'])[2]//span[.='CPT Group']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.openqa.selenium.remote.Augmenter$CompoundHandler.intercept(Augmenter.java:191)
+	at org.openqa.selenium.remote.RemoteWebDriver$$EnhancerByCGLIB$$1ad2041a.findElement(<generated>)
+	at net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:241)
+	at project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef.user_Sort_TargetData_Tab(EstablishOperationalAuditFunctionalityStepDef.java:690)
+	at project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$e37af007.CGLIB$user_Sort_TargetData_Tab$15(<generated>)
+	at project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$e37af007$$FastClassByCGLIB$$a50ecd01.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$e37af007.user_Sort_TargetData_Tab(<generated>)
+	at project.features.steps.EstablishOperationalAuditFunctionalitySteps.user_Sort_in_the_TargetData_tab(EstablishOperationalAuditFunctionalitySteps.java:80)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:299)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:370)
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:47)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:329)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:370)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]></error>
+  </testcase>
+  <testcase name="Given User logs with &quot;iht_ittest05&quot; as CPT ICD RA into JBPM Application" classname="| iht_ittest05 | CPT Group |" time="0"/>
+  <testcase name="When User should be able click on CPTICDLink-Admin under Adminstration Section" classname="| iht_ittest05 | CPT Group |" time="0"/>
+  <testcase name="Then Screen will be opened in a new tab with title CPTICD Links- Admin" classname="| iht_ittest05 | CPT Group |" time="0"/>
+  <testcase name="And User Sort &quot;CPT Group&quot; in the TargetData tab" classname="| iht_ittest05 | CPT Group |" time="0">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@class=&apos;ui-grid-header-cell-row&apos;])[2]//span[.=&apos;CPT Group&apos;]&quot;}&#10;  (Session info: chrome=72.0.3626.81)&#10;  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 3.10.0-957.1.3.el7.x86_64 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.13 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;dev-xd019&apos;, ip: &apos;10.130.12.50&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:37070}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.Xnjw7v}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.81, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 40ae7821d6a6a2054f6cc322625695ef&#10;*** Element info: {Using=xpath, value=(//div[@class=&apos;ui-grid-header-cell-row&apos;])[2]//span[.=&apos;CPT Group&apos;]}" type="net.serenitybdd.core.exceptions.SerenityManagedException"><![CDATA[net.serenitybdd.core.exceptions.SerenityManagedException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='ui-grid-header-cell-row'])[2]//span[.='CPT Group']"}
+  (Session info: chrome=72.0.3626.81)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 3.10.0-957.1.3.el7.x86_64 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.13 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'dev-xd019', ip: '10.130.12.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:37070}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.Xnjw7v}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.81, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 40ae7821d6a6a2054f6cc322625695ef
+*** Element info: {Using=xpath, value=(//div[@class='ui-grid-header-cell-row'])[2]//span[.='CPT Group']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.openqa.selenium.remote.Augmenter$CompoundHandler.intercept(Augmenter.java:191)
+	at org.openqa.selenium.remote.RemoteWebDriver$$EnhancerByCGLIB$$1ad2041a.findElement(<generated>)
+	at net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:241)
+	at project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef.user_Sort_TargetData_Tab(EstablishOperationalAuditFunctionalityStepDef.java:690)
+	at project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$e37af007.CGLIB$user_Sort_TargetData_Tab$15(<generated>)
+	at project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$e37af007$$FastClassByCGLIB$$a50ecd01.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$e37af007.user_Sort_TargetData_Tab(<generated>)
+	at project.features.steps.EstablishOperationalAuditFunctionalitySteps.user_Sort_in_the_TargetData_tab(EstablishOperationalAuditFunctionalitySteps.java:80)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:299)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:370)
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:47)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:329)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:370)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]></error>
+  </testcase>
+  <testcase name="Then User should be able to sort &quot;CPT Group&quot; in the TargetData tab" classname="| iht_ittest05 | CPT Group |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Logout of the Application" classname="| iht_ittest05 | CPT Group |" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

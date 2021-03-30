@@ -1,0 +1,59 @@
+<acceptance-test-run title="US20931 - Display Target table Data" name="US20931 - Display Target table Data" description="" steps="6" successful="1" failures="0" errors="1" skipped="4" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="21971" timestamp="2019-03-19T15:34:55.539+05:30" session-id="b1a19c1d3d0276b3dc5bc18461f80c64">
+  <user-story id="f6333-establish-operational-audit-functionality---june-release.feature" name="F6333-Establish Operational Audit Functionality - June Release.feature" path="3.Regression/F6333-Establish Operational Audit Functionality - June Release.feature"/>
+  <tags>
+    <tag name="F6333-Establish Operational Audit Functionality - June Release.feature" type="feature"/>
+    <tag name="Regression" type="tag"/>
+    <tag name="US20931DisplayTargettableData" type="tag"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0" name="" description=""/>
+    </datasets>
+    <headers>
+      <header>User ID</header>
+    </headers>
+    <rows>
+      <row result="ERROR">
+        <value>iht_ittest05</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {User ID=iht_ittest05}" result="ERROR">
+    <test-group name="When User logs with &quot;iht_ittest05&quot; as CPT ICD RA into JBPM Application" result="SUCCESS">
+      <test-step result="SUCCESS" duration="10095">
+        <description>Login CPTICD link: iht_ittest05</description>
+      </test-step>
+    </test-group>
+    <test-group name="And Screen will be opened in a new tab with title CPTICD Links- Admin" result="ERROR">
+      <test-step result="ERROR" duration="9073">
+        <screenshots>
+          <screenshot image="f9b3da3289df993249281834a618c6cb.png" source="pagesource6401463456655724212.html.txt"/>
+        </screenshots>
+        <description>Validate admin page</description>
+        <error>org.openqa.selenium.NoSuchElementException: Timed out after 4 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;dev-xd019&apos;, ip: &apos;10.130.12.50&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: driver.version: RemoteWebDriver</error>
+        <exception>org.openqa.selenium.NoSuchElementException:Timed out after 4 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;dev-xd019&apos;, ip: &apos;10.130.12.50&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: driver.version: RemoteWebDriver&#xd;
+[net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:150), net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102), net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:39), com.sun.proxy.$Proxy26.getWrappedElement(Unknown Source), org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:49), com.google.common.collect.Iterators$8.transform(Iterators.java:799), com.google.common.collect.TransformedIterator.next(TransformedIterator.java:48), com.google.common.collect.Iterators.addAll(Iterators.java:362), com.google.common.collect.Lists.newArrayList(Lists.java:160), com.google.common.collect.Lists.newArrayList(Lists.java:144), org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:572), net.thucydides.core.webdriver.WebDriverFacade.executeScript(WebDriverFacade.java:386), project.utilities.SeleniumUtils.highlightElement(SeleniumUtils.java:181), project.utilities.SeleniumUtils.is_WebElement_Displayed(SeleniumUtils.java:127), project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef.validateAdminPage(EstablishOperationalAuditFunctionalityStepDef.java:52), project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$1639e6de.CGLIB$validateAdminPage$5(&lt;generated&gt;), project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$1639e6de$$FastClassByCGLIB$$20fcfb75.invoke(&lt;generated&gt;), net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228), net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372), net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357), net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332), net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134), net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61), project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$1639e6de.validateAdminPage(&lt;generated&gt;), project.features.steps.EstablishOperationalAuditFunctionalitySteps.screen_will_be_opened_in_a_new_tab_with_title_CPTICD_Links_Admin(EstablishOperationalAuditFunctionalitySteps.java:20), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.lang.reflect.Method.invoke(Method.java:483), cucumber.runtime.Utils$1.call(Utils.java:37), cucumber.runtime.Timeout.timeout(Timeout.java:13), cucumber.runtime.Utils.invoke(Utils.java:31), cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38), cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37), cucumber.runtime.Runtime.runStep(Runtime.java:299), cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44), cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39), cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44), cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91), org.junit.runners.Suite.runChild(Suite.java:128), org.junit.runners.Suite.runChild(Suite.java:27), org.junit.runners.ParentRunner$3.run(ParentRunner.java:290), org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71), org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288), org.junit.runners.ParentRunner.access$000(ParentRunner.java:58), org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268), org.junit.runners.ParentRunner.run(ParentRunner.java:363), cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59), org.junit.runners.Suite.runChild(Suite.java:128), org.junit.runners.Suite.runChild(Suite.java:27), org.junit.runners.ParentRunner$3.run(ParentRunner.java:290), org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71), org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288), org.junit.runners.ParentRunner.access$000(ParentRunner.java:58), org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268), org.junit.runners.ParentRunner.run(ParentRunner.java:363), cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53), cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63), cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18), org.junit.runners.ParentRunner$3.run(ParentRunner.java:290), org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71), org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288), org.junit.runners.ParentRunner.access$000(ParentRunner.java:58), org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268), org.junit.runners.ParentRunner.run(ParentRunner.java:363), cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70), cucumber.api.junit.Cucumber.runChild(Cucumber.java:93), cucumber.api.junit.Cucumber.runChild(Cucumber.java:37), org.junit.runners.ParentRunner$3.run(ParentRunner.java:290), org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71), org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288), org.junit.runners.ParentRunner.access$000(ParentRunner.java:58), org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268), org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26), org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27), org.junit.runners.ParentRunner.run(ParentRunner.java:363), cucumber.api.junit.Cucumber.run(Cucumber.java:98), org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86), org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)]</exception>
+      </test-step>
+    </test-group>
+    <test-step result="SKIPPED" duration="12">
+      <description>And User clicks on the &quot;TargetData&quot; tab</description>
+    </test-step>
+    <test-step result="SKIPPED" duration="3">
+      <description>Then Expected columns Headers should be displayed in the TargetData screen</description>
+    </test-step>
+    <test-step result="SKIPPED" duration="4">
+      <description>And User captures the DB Count and UI Count of records to validate</description>
+    </test-step>
+    <test-step result="SKIPPED" duration="4">
+      <description>Then Logout of the Application</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

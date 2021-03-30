@@ -1,0 +1,190 @@
+<acceptance-test-run title="US20932-Ability to Sort Target table data for ICD Group" name="US20932-Ability to Sort Target table data for ICD Group" description="" steps="21" successful="5" failures="0" errors="3" skipped="13" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="105836" timestamp="2019-05-13T12:50:50.297+05:30" session-id="0ec61493baae4fde86769c2e37203fd9">
+  <user-story id="f6333-establish-operational-audit-functionality---june-release.feature" name="F6333-Establish Operational Audit Functionality - June Release.feature" path="3.Regression/F6333-Establish Operational Audit Functionality - June Release.feature"/>
+  <tags>
+    <tag name="F6333-Establish Operational Audit Functionality - June Release.feature" type="feature"/>
+    <tag name="Regression" type="tag"/>
+    <tag name="US20932AbilitytoSortTargetTabledata" type="tag"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0" name="" description=""/>
+    </datasets>
+    <headers>
+      <header>User ID</header>
+      <header>Column</header>
+    </headers>
+    <rows>
+      <row result="ERROR">
+        <value>iht_ittest05</value>
+        <value>ICD Group</value>
+      </row>
+      <row result="ERROR">
+        <value>iht_ittest05F</value>
+        <value>DOS From</value>
+      </row>
+      <row result="ERROR">
+        <value>iht_ittest05F</value>
+        <value>DOS To</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {User ID=iht_ittest05, Column=ICD Group}" result="ERROR">
+    <test-group name="Given User logs with &quot;iht_ittest05&quot; as CPT ICD RA into JBPM Application" result="SUCCESS">
+      <test-step result="SUCCESS" duration="11169">
+        <description>Login CPTICD link: iht_ittest05</description>
+      </test-step>
+    </test-group>
+    <test-group name="When User should be able click on CPTICDLink-Admin under Adminstration Section" result="SUCCESS">
+      <test-step result="SUCCESS" duration="35637">
+        <description>Clicks on CPTICD admin link</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then Screen will be opened in a new tab with title CPTICD Links- Admin" result="SUCCESS">
+      <test-step result="SUCCESS" duration="1574">
+        <description>Validate admin page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When User clicks on the &quot;TargetData&quot; tab" result="ERROR">
+      <test-step result="ERROR" duration="2516">
+        <screenshots>
+          <screenshot image="1368133aff28caccbf92abbee9d59601.png" source="pagesource5439327790556257284.html.txt"/>
+        </screenshots>
+        <description>Clicks on target data tab</description>
+        <error>org.openqa.selenium.WebDriverException: unknown error: Element &lt;a href=&quot;&quot; data-toggle=&quot;tab&quot; ng-click=&quot;switchTab(&apos;adminWorkQueue.targetview&apos;, &apos;targetview&apos;)&quot; style=&quot;&quot;&gt;...&lt;/a&gt; is not clickable at point (118, 86). Other element would receive the click: &lt;div id=&quot;spinner&quot; ng-show=&quot;showSpinner&quot; class=&quot;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 77 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;dev-xd034&apos;, ip: &apos;10.130.12.36&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:50642}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72), userDataDir=C:\Users\RAVEEN~1.BET\AppData\Local\Temp\scoped_dir7572_7803}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.86, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: da3c7bdd4d2ad85186bdfe1bb35c524f</error>
+        <exception>org.openqa.selenium.WebDriverException:unknown error: Element &lt;a href=&quot;&quot; data-toggle=&quot;tab&quot; ng-click=&quot;switchTab(&apos;adminWorkQueue.targetview&apos;, &apos;targetview&apos;)&quot; style=&quot;&quot;&gt;...&lt;/a&gt; is not clickable at point (118, 86). Other element would receive the click: &lt;div id=&quot;spinner&quot; ng-show=&quot;showSpinner&quot; class=&quot;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 77 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;dev-xd034&apos;, ip: &apos;10.130.12.36&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:50642}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72), userDataDir=C:\Users\RAVEEN~1.BET\AppData\Local\Temp\scoped_dir7572_7803}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.86, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: da3c7bdd4d2ad85186bdfe1bb35c524f&#xd;
+[sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62), sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.lang.reflect.Constructor.newInstance(Constructor.java:408), org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206), org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678), org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327), org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85), net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:988), project.utilities.SeleniumUtils.Click_given_WebElement(SeleniumUtils.java:198), project.pageobjects.AdminPage.clicksOnTargetDataTab(AdminPage.java:230), project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef.ClicksOnTargetDataTab(EstablishOperationalAuditFunctionalityStepDef.java:47), project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$9e287be6.CGLIB$ClicksOnTargetDataTab$2(&lt;generated&gt;), project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$9e287be6$$FastClassByCGLIB$$14740f46.invoke(&lt;generated&gt;), net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228), net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372), net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357), net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332), net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134), net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61), project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$9e287be6.ClicksOnTargetDataTab(&lt;generated&gt;), project.features.steps.EstablishOperationalAuditFunctionalitySteps.user_clicks_on_the_tab(EstablishOperationalAuditFunctionalitySteps.java:25), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.lang.reflect.Method.invoke(Method.java:483), cucumber.runtime.Utils$1.call(Utils.java:37), cucumber.runtime.Timeout.timeout(Timeout.java:13), cucumber.runtime.Utils.invoke(Utils.java:31), cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38), cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37), cucumber.runtime.Runtime.runStep(Runtime.java:299), cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44), cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39), cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44), cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91), org.junit.runners.Suite.runChild(Suite.java:128), org.junit.runners.Suite.runChild(Suite.java:27), org.junit.runners.ParentRunner$3.run(ParentRunner.java:290), org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71), org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288), org.junit.runners.ParentRunner.access$000(ParentRunner.java:58), org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268), org.junit.runners.ParentRunner.run(ParentRunner.java:363), cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59), org.junit.runners.Suite.runChild(Suite.java:128), org.junit.runners.Suite.runChild(Suite.java:27), org.junit.runners.ParentRunner$3.run(ParentRunner.java:290), org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71), org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288), org.junit.runners.ParentRunner.access$000(ParentRunner.java:58), org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268), org.junit.runners.ParentRunner.run(ParentRunner.java:363), cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53), cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63), cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18), org.junit.runners.ParentRunner$3.run(ParentRunner.java:290), org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71), org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288), org.junit.runners.ParentRunner.access$000(ParentRunner.java:58), org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268), org.junit.runners.ParentRunner.run(ParentRunner.java:363), cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70), cucumber.api.junit.Cucumber.runChild(Cucumber.java:93), cucumber.api.junit.Cucumber.runChild(Cucumber.java:37), org.junit.runners.ParentRunner$3.run(ParentRunner.java:290), org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71), org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288), org.junit.runners.ParentRunner.access$000(ParentRunner.java:58), org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268), org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26), org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27), org.junit.runners.ParentRunner.run(ParentRunner.java:363), cucumber.api.junit.Cucumber.run(Cucumber.java:98), org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86), org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)]</exception>
+      </test-step>
+    </test-group>
+    <test-step result="SKIPPED" duration="21">
+      <description>And User Sort &quot;ICD Group&quot; in the TargetData tab</description>
+    </test-step>
+    <test-step result="SKIPPED" duration="68">
+      <description>Then User should be able to sort &quot;ICD Group&quot; in the TargetData tab</description>
+    </test-step>
+    <test-step result="SKIPPED" duration="60">
+      <description>And Logout of the Application</description>
+    </test-step>
+  </test-group>
+  <test-group name="[1] {User ID=iht_ittest05F, Column=DOS From}" result="ERROR">
+    <test-group name="Given User logs with &quot;iht_ittest05F&quot; as CPT ICD RA into JBPM Application" result="SUCCESS">
+      <test-step result="SUCCESS" duration="9119">
+        <description>Login CPTICD link: iht_ittest05F</description>
+      </test-step>
+    </test-group>
+    <test-group name="When User should be able click on CPTICDLink-Admin under Adminstration Section" result="ERROR">
+      <test-step result="ERROR" duration="14562">
+        <screenshots>
+          <screenshot image="1ba6f632a0078c861afe9960771db083.png" source="pagesource6182957473448459877.html.txt"/>
+        </screenshots>
+        <description>Clicks on CPTICD admin link</description>
+        <error>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Administration&apos;)]&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;dev-xd034&apos;, ip: &apos;10.130.12.36&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:50808}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72), userDataDir=C:\Users\RAVEEN~1.BET\AppData\Local\Temp\scoped_dir5624_32518}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.86, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 428d4f0d6102569af16ef65593110b8d
+*** Element info: {Using=xpath, value=//span[contains(text(),&apos;Administration&apos;)]}</error>
+        <exception>org.openqa.selenium.NoSuchElementException:no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Administration&apos;)]&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;dev-xd034&apos;, ip: &apos;10.130.12.36&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:50808}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72), userDataDir=C:\Users\RAVEEN~1.BET\AppData\Local\Temp\scoped_dir5624_32518}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.86, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 428d4f0d6102569af16ef65593110b8d
+*** Element info: {Using=xpath, value=//span[contains(text(),&apos;Administration&apos;)]}&#xd;
+[sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62), sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.lang.reflect.Constructor.newInstance(Constructor.java:408), org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206), org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363), org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500), org.openqa.selenium.By$ByXPath.findElement(By.java:361), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355), net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:241), project.utilities.SeleniumUtils.highlightElement(SeleniumUtils.java:152), project.utilities.SeleniumUtils.Click_given_Locator(SeleniumUtils.java:146), project.pageobjects.HomePage.NavigateToCPTICDAdminLink(HomePage.java:160), project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef.ClicksOnCPTICDAdminLink(EstablishOperationalAuditFunctionalityStepDef.java:42), project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$9e287be6.CGLIB$ClicksOnCPTICDAdminLink$0(&lt;generated&gt;), project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$9e287be6$$FastClassByCGLIB$$14740f46.invoke(&lt;generated&gt;), net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228), net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372), net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357), net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332), net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134), net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61), project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$9e287be6.ClicksOnCPTICDAdminLink(&lt;generated&gt;), project.features.steps.EstablishOperationalAuditFunctionalitySteps.user_should_be_able_click_on_CPTICDLink_Admin_under_Adminstration_Section(EstablishOperationalAuditFunctionalitySteps.java:15), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.lang.reflect.Method.invoke(Method.java:483), cucumber.runtime.Utils$1.call(Utils.java:37), cucumber.runtime.Timeout.timeout(Timeout.java:13), cucumber.runtime.Utils.invoke(Utils.java:31), cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38), cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37), cucumber.runtime.Runtime.runStep(Runtime.java:299), cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44), cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39), cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44), cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91), org.junit.runners.Suite.runChild(Suite.java:128), org.junit.runners.Suite.runChild(Suite.java:27), org.junit.runners.ParentRunner$3.run(ParentRunner.java:290), org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71), org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288), org.junit.runners.ParentRunner.access$000(ParentRunner.java:58), org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268), org.junit.runners.ParentRunner.run(ParentRunner.java:363), cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59), org.junit.runners.Suite.runChild(Suite.java:128), org.junit.runners.Suite.runChild(Suite.java:27), org.junit.runners.ParentRunner$3.run(ParentRunner.java:290), org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71), org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288), org.junit.runners.ParentRunner.access$000(ParentRunner.java:58), org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268), org.junit.runners.ParentRunner.run(ParentRunner.java:363), cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53), cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63), cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18), org.junit.runners.ParentRunner$3.run(ParentRunner.java:290), org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71), org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288), org.junit.runners.ParentRunner.access$000(ParentRunner.java:58), org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268), org.junit.runners.ParentRunner.run(ParentRunner.java:363), cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70), cucumber.api.junit.Cucumber.runChild(Cucumber.java:93), cucumber.api.junit.Cucumber.runChild(Cucumber.java:37), org.junit.runners.ParentRunner$3.run(ParentRunner.java:290), org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71), org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288), org.junit.runners.ParentRunner.access$000(ParentRunner.java:58), org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268), org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26), org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27), org.junit.runners.ParentRunner.run(ParentRunner.java:363), cucumber.api.junit.Cucumber.run(Cucumber.java:98), org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86), org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)]</exception>
+      </test-step>
+    </test-group>
+    <test-step result="SKIPPED" duration="3">
+      <description>Then Screen will be opened in a new tab with title CPTICD Links- Admin</description>
+    </test-step>
+    <test-step result="SKIPPED" duration="2">
+      <description>When User clicks on the &quot;TargetData&quot; tab</description>
+    </test-step>
+    <test-step result="SKIPPED" duration="3">
+      <description>And User Sort &quot;DOS From&quot; in the TargetData tab</description>
+    </test-step>
+    <test-step result="SKIPPED" duration="4">
+      <description>Then User should be able to sort &quot;DOS From&quot; in the TargetData tab</description>
+    </test-step>
+    <test-step result="SKIPPED" duration="2">
+      <description>And Logout of the Application</description>
+    </test-step>
+  </test-group>
+  <test-group name="[1] {User ID=iht_ittest05F, Column=DOS To}" result="ERROR">
+    <test-group name="Given User logs with &quot;iht_ittest05F&quot; as CPT ICD RA into JBPM Application" result="SUCCESS">
+      <test-step result="SUCCESS" duration="10582">
+        <description>Login CPTICD link: iht_ittest05F</description>
+      </test-step>
+    </test-group>
+    <test-group name="When User should be able click on CPTICDLink-Admin under Adminstration Section" result="ERROR">
+      <test-step result="ERROR" duration="14511">
+        <screenshots>
+          <screenshot image="1ba6f632a0078c861afe9960771db083.png" source="pagesource3317588771968039463.html.txt"/>
+        </screenshots>
+        <description>Clicks on CPTICD admin link</description>
+        <error>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Administration&apos;)]&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;dev-xd034&apos;, ip: &apos;10.130.12.36&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:50864}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72), userDataDir=C:\Users\RAVEEN~1.BET\AppData\Local\Temp\scoped_dir13748_13152}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.86, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0ec61493baae4fde86769c2e37203fd9
+*** Element info: {Using=xpath, value=//span[contains(text(),&apos;Administration&apos;)]}</error>
+        <exception>org.openqa.selenium.NoSuchElementException:no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Administration&apos;)]&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;dev-xd034&apos;, ip: &apos;10.130.12.36&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:50864}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72), userDataDir=C:\Users\RAVEEN~1.BET\AppData\Local\Temp\scoped_dir13748_13152}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.86, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0ec61493baae4fde86769c2e37203fd9
+*** Element info: {Using=xpath, value=//span[contains(text(),&apos;Administration&apos;)]}&#xd;
+[sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62), sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.lang.reflect.Constructor.newInstance(Constructor.java:408), org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206), org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363), org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500), org.openqa.selenium.By$ByXPath.findElement(By.java:361), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355), net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:241), project.utilities.SeleniumUtils.highlightElement(SeleniumUtils.java:152), project.utilities.SeleniumUtils.Click_given_Locator(SeleniumUtils.java:146), project.pageobjects.HomePage.NavigateToCPTICDAdminLink(HomePage.java:160), project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef.ClicksOnCPTICDAdminLink(EstablishOperationalAuditFunctionalityStepDef.java:42), project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$9e287be6.CGLIB$ClicksOnCPTICDAdminLink$0(&lt;generated&gt;), project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$9e287be6$$FastClassByCGLIB$$14740f46.invoke(&lt;generated&gt;), net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228), net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372), net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357), net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332), net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134), net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61), project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$9e287be6.ClicksOnCPTICDAdminLink(&lt;generated&gt;), project.features.steps.EstablishOperationalAuditFunctionalitySteps.user_should_be_able_click_on_CPTICDLink_Admin_under_Adminstration_Section(EstablishOperationalAuditFunctionalitySteps.java:15), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.lang.reflect.Method.invoke(Method.java:483), cucumber.runtime.Utils$1.call(Utils.java:37), cucumber.runtime.Timeout.timeout(Timeout.java:13), cucumber.runtime.Utils.invoke(Utils.java:31), cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38), cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37), cucumber.runtime.Runtime.runStep(Runtime.java:299), cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44), cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39), cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44), cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91), org.junit.runners.Suite.runChild(Suite.java:128), org.junit.runners.Suite.runChild(Suite.java:27), org.junit.runners.ParentRunner$3.run(ParentRunner.java:290), org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71), org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288), org.junit.runners.ParentRunner.access$000(ParentRunner.java:58), org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268), org.junit.runners.ParentRunner.run(ParentRunner.java:363), cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59), org.junit.runners.Suite.runChild(Suite.java:128), org.junit.runners.Suite.runChild(Suite.java:27), org.junit.runners.ParentRunner$3.run(ParentRunner.java:290), org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71), org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288), org.junit.runners.ParentRunner.access$000(ParentRunner.java:58), org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268), org.junit.runners.ParentRunner.run(ParentRunner.java:363), cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53), cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63), cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18), org.junit.runners.ParentRunner$3.run(ParentRunner.java:290), org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71), org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288), org.junit.runners.ParentRunner.access$000(ParentRunner.java:58), org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268), org.junit.runners.ParentRunner.run(ParentRunner.java:363), cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70), cucumber.api.junit.Cucumber.runChild(Cucumber.java:93), cucumber.api.junit.Cucumber.runChild(Cucumber.java:37), org.junit.runners.ParentRunner$3.run(ParentRunner.java:290), org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71), org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288), org.junit.runners.ParentRunner.access$000(ParentRunner.java:58), org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268), org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26), org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27), org.junit.runners.ParentRunner.run(ParentRunner.java:363), cucumber.api.junit.Cucumber.run(Cucumber.java:98), org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86), org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)]</exception>
+      </test-step>
+    </test-group>
+    <test-step result="SKIPPED" duration="4">
+      <description>Then Screen will be opened in a new tab with title CPTICD Links- Admin</description>
+    </test-step>
+    <test-step result="SKIPPED" duration="4">
+      <description>When User clicks on the &quot;TargetData&quot; tab</description>
+    </test-step>
+    <test-step result="SKIPPED" duration="4">
+      <description>And User Sort &quot;DOS To&quot; in the TargetData tab</description>
+    </test-step>
+    <test-step result="SKIPPED" duration="4">
+      <description>Then User should be able to sort &quot;DOS To&quot; in the TargetData tab</description>
+    </test-step>
+    <test-step result="SKIPPED" duration="6">
+      <description>And Logout of the Application</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

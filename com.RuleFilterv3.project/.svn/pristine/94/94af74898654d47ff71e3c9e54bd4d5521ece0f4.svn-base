@@ -1,0 +1,46 @@
+2019-03-19 16:09:08 INFO  CreateProposalStepDef:38 - JBPM Home page opened successfully
+2019-03-19 16:09:09 INFO  LoginPage:120 - User Name entered successfully :iht_ittest05
+2019-03-19 16:09:10 INFO  LoginPage:67 - Password entered successfully
+2019-03-19 16:09:11 INFO  LoginPage:69 - Login Button clicked successfully.
+2019-03-19 16:09:31 INFO  CreateProposalStepDef:38 - JBPM Home page opened successfully
+2019-03-19 16:09:32 INFO  LoginPage:120 - User Name entered successfully :iht_ittest05
+2019-03-19 16:09:33 INFO  LoginPage:67 - Password entered successfully
+2019-03-19 16:09:34 INFO  LoginPage:69 - Login Button clicked successfully.
+2019-03-19 16:10:43 INFO  AdminPage:233 - TargetData Tab screen opened
+2019-03-19 16:11:35 INFO  CreateProposalStepDef:701 - Column NameLCD/Article ID
+2019-03-19 16:11:35 INFO  CreateProposalStepDef:724 - column status Sort Descending
+2019-03-19 16:11:52 INFO  CreateProposalStepDef:38 - JBPM Home page opened successfully
+2019-03-19 16:11:53 INFO  LoginPage:120 - User Name entered successfully :iht_ittest05
+2019-03-19 16:11:53 INFO  LoginPage:67 - Password entered successfully
+2019-03-19 16:11:55 INFO  LoginPage:69 - Login Button clicked successfully.
+2019-03-19 16:12:49 INFO  AdminPage:233 - TargetData Tab screen opened
+2019-03-19 16:13:23 INFO  CreateProposalStepDef:701 - Column NameCPT Code
+2019-03-19 16:13:23 INFO  CreateProposalStepDef:724 - column status Sort Descending
+2019-03-19 16:13:39 INFO  CreateProposalStepDef:38 - JBPM Home page opened successfully
+2019-03-19 16:13:40 INFO  LoginPage:120 - User Name entered successfully :iht_ittest05
+2019-03-19 16:13:41 INFO  LoginPage:67 - Password entered successfully
+2019-03-19 16:13:42 INFO  LoginPage:69 - Login Button clicked successfully.
+2019-03-19 16:14:37 INFO  AdminPage:233 - TargetData Tab screen opened
+2019-03-19 16:15:11 INFO  CreateProposalStepDef:701 - Column NameCPT Group
+2019-03-19 16:15:11 INFO  CreateProposalStepDef:724 - column status Sort Descending
+2019-03-19 16:15:29 INFO  CreateProposalStepDef:38 - JBPM Home page opened successfully
+2019-03-19 16:15:30 INFO  LoginPage:120 - User Name entered successfully :iht_ittest05
+2019-03-19 16:15:31 INFO  LoginPage:67 - Password entered successfully
+2019-03-19 16:15:32 INFO  LoginPage:69 - Login Button clicked successfully.
+2019-03-19 16:16:40 INFO  AdminPage:233 - TargetData Tab screen opened
+2019-03-19 16:17:29 INFO  CreateProposalStepDef:701 - Column NameICD Code
+2019-03-19 16:17:29 INFO  CreateProposalStepDef:724 - column status Sort Descending
+2019-03-19 16:17:45 INFO  CreateProposalStepDef:38 - JBPM Home page opened successfully
+2019-03-19 16:17:46 INFO  LoginPage:120 - User Name entered successfully :iht_ittest05
+2019-03-19 16:17:47 INFO  LoginPage:67 - Password entered successfully
+2019-03-19 16:17:48 INFO  LoginPage:69 - Login Button clicked successfully.
+2019-03-19 16:18:44 INFO  AdminPage:233 - TargetData Tab screen opened
+2019-03-19 16:19:19 INFO  CreateProposalStepDef:701 - Column NameICD Group
+2019-03-19 16:19:19 INFO  CreateProposalStepDef:724 - column status Sort Descending
+2019-03-19 16:19:35 INFO  CreateProposalStepDef:38 - JBPM Home page opened successfully
+2019-03-19 16:19:36 INFO  LoginPage:120 - User Name entered successfully :iht_ittest05
+2019-03-19 16:19:36 INFO  LoginPage:67 - Password entered successfully
+2019-03-19 16:19:37 INFO  LoginPage:69 - Login Button clicked successfully.
+2019-03-19 16:20:32 INFO  AdminPage:233 - TargetData Tab screen opened
+2019-03-19 16:21:06 INFO  CreateProposalStepDef:701 - Column NameCategory
+2019-03-19 16:21:06 INFO  CreateProposalStepDef:724 - column status Sort Descending

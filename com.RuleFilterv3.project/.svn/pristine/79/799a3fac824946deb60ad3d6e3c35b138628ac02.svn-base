@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="733.045212">
+<testcase classname="F6333-Establish Operational Audit Functionality - June Release.feature" name="US24466 - Dynamic filter for Assignee on Target view &amp; Admin should have role of AdminOps" time="22.867842">
+<failure message="net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 4 seconds. Element not found&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'&#10;System info: host: 'dev-xd019', ip: '10.130.12.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'&#10;Driver info: driver.version: RemoteWebDriver&#13;&#10;&#9;at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:150)&#13;&#10;&#9;at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)&#13;&#10;&#9;at net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:39)&#13;&#10;&#9;at com.sun.proxy.$Proxy26.getWrappedElement(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:49)&#13;&#10;&#9;at com.google.common.collect.Iterators$8.transform(Iterators.java:799)&#13;&#10;&#9;at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:48)&#13;&#10;&#9;at com.google.common.collect.Iterators.addAll(Iterators.java:362)&#13;&#10;&#9;at com.google.common.collect.Lists.newArrayList(Lists.java:160)&#13;&#10;&#9;at com.google.common.collect.Lists.newArrayList(Lists.java:144)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:572)&#13;&#10;&#9;at net.thucydides.core.webdriver.WebDriverFacade.executeScript(WebDriverFacade.java:386)&#13;&#10;&#9;at project.utilities.SeleniumUtils.highlightElement(SeleniumUtils.java:181)&#13;&#10;&#9;at project.utilities.SeleniumUtils.is_WebElement_Displayed(SeleniumUtils.java:127)&#13;&#10;&#9;at project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef.validateAdminPage(EstablishOperationalAuditFunctionalityStepDef.java:52)&#13;&#10;&#9;at project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$c6dc17d9.CGLIB$validateAdminPage$1(&lt;generated&gt;)&#13;&#10;&#9;at project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$c6dc17d9$$FastClassByCGLIB$$c0cd70e5.invoke(&lt;generated&gt;)&#13;&#10;&#9;at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)&#13;&#10;&#9;at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)&#13;&#10;&#9;at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)&#13;&#10;&#9;at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)&#13;&#10;&#9;at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)&#13;&#10;&#9;at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)&#13;&#10;&#9;at project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$c6dc17d9.validateAdminPage(&lt;generated&gt;)&#13;&#10;&#9;at project.features.steps.EstablishOperationalAuditFunctionalitySteps.screen_will_be_opened_in_a_new_tab_with_title_CPTICD_Links_Admin(EstablishOperationalAuditFunctionalitySteps.java:20)&#13;&#10;&#9;at ✽.And Screen will be opened in a new tab with title CPTICD Links- Admin(3.Regression/F6333-Establish Operational Audit Functionality - June Release.feature:8)&#13;&#10;"><![CDATA[When User logs with "iht_ittest05" as CPT ICD RA into JBPM Application......passed
+And Screen will be opened in a new tab with title CPTICD Links- Admin.......failed
+And User clicks on the "TargetData" tab.....................................skipped
+When User filters by "OneUser:iht_ittest01" for Assignee dropdown...........skipped
+When User applies filter on multiple columns and "dhasten"..................skipped
+Then Logout of the Application..............................................skipped
+
+StackTrace:
+net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 4 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'dev-xd019', ip: '10.130.12.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: driver.version: RemoteWebDriver
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:150)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)
+	at net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:39)
+	at com.sun.proxy.$Proxy26.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:49)
+	at com.google.common.collect.Iterators$8.transform(Iterators.java:799)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:48)
+	at com.google.common.collect.Iterators.addAll(Iterators.java:362)
+	at com.google.common.collect.Lists.newArrayList(Lists.java:160)
+	at com.google.common.collect.Lists.newArrayList(Lists.java:144)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:572)
+	at net.thucydides.core.webdriver.WebDriverFacade.executeScript(WebDriverFacade.java:386)
+	at project.utilities.SeleniumUtils.highlightElement(SeleniumUtils.java:181)
+	at project.utilities.SeleniumUtils.is_WebElement_Displayed(SeleniumUtils.java:127)
+	at project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef.validateAdminPage(EstablishOperationalAuditFunctionalityStepDef.java:52)
+	at project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$c6dc17d9.CGLIB$validateAdminPage$1(<generated>)
+	at project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$c6dc17d9$$FastClassByCGLIB$$c0cd70e5.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$c6dc17d9.validateAdminPage(<generated>)
+	at project.features.steps.EstablishOperationalAuditFunctionalitySteps.screen_will_be_opened_in_a_new_tab_with_title_CPTICD_Links_Admin(EstablishOperationalAuditFunctionalitySteps.java:20)
+	at ✽.And Screen will be opened in a new tab with title CPTICD Links- Admin(3.Regression/F6333-Establish Operational Audit Functionality - June Release.feature:8)
+]]></failure>
+</testcase>
+<testcase classname="F6333-Establish Operational Audit Functionality - June Release.feature" name="US20932 - Ability to Sort Target table data" time="139.221653">
+<system-out><![CDATA[Given User logs with "iht_ittest05" as CPT ICD RA into JBPM Application.....passed
+When User should be able click on CPTICDLink-Admin under Adminstration Section.passed
+Then Screen will be opened in a new tab with title CPTICD Links- Admin......passed
+When User clicks on the "TargetData" tab....................................passed
+And User Sort "LCD/Article ID" in the TargetData tab........................passed
+Then User should be able to sort "LCD/Article ID" in the TargetData tab.....passed
+And Logout of the Application...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F6333-Establish Operational Audit Functionality - June Release.feature" name="US20932 - Ability to Sort Target table data 2" time="108.464904">
+<system-out><![CDATA[Given User logs with "iht_ittest05" as CPT ICD RA into JBPM Application.....passed
+When User should be able click on CPTICDLink-Admin under Adminstration Section.passed
+Then Screen will be opened in a new tab with title CPTICD Links- Admin......passed
+When User clicks on the "TargetData" tab....................................passed
+And User Sort "CPT Code" in the TargetData tab..............................passed
+Then User should be able to sort "CPT Code" in the TargetData tab...........passed
+And Logout of the Application...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F6333-Establish Operational Audit Functionality - June Release.feature" name="US20932 - Ability to Sort Target table data 3" time="107.884276">
+<system-out><![CDATA[Given User logs with "iht_ittest05" as CPT ICD RA into JBPM Application.....passed
+When User should be able click on CPTICDLink-Admin under Adminstration Section.passed
+Then Screen will be opened in a new tab with title CPTICD Links- Admin......passed
+When User clicks on the "TargetData" tab....................................passed
+And User Sort "CPT Group" in the TargetData tab.............................passed
+Then User should be able to sort "CPT Group" in the TargetData tab..........passed
+And Logout of the Application...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F6333-Establish Operational Audit Functionality - June Release.feature" name="US20932 - Ability to Sort Target table data 4" time="137.836304">
+<system-out><![CDATA[Given User logs with "iht_ittest05" as CPT ICD RA into JBPM Application.....passed
+When User should be able click on CPTICDLink-Admin under Adminstration Section.passed
+Then Screen will be opened in a new tab with title CPTICD Links- Admin......passed
+When User clicks on the "TargetData" tab....................................passed
+And User Sort "ICD Code" in the TargetData tab..............................passed
+Then User should be able to sort "ICD Code" in the TargetData tab...........passed
+And Logout of the Application...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F6333-Establish Operational Audit Functionality - June Release.feature" name="US20932 - Ability to Sort Target table data 5" time="109.296034">
+<system-out><![CDATA[Given User logs with "iht_ittest05" as CPT ICD RA into JBPM Application.....passed
+When User should be able click on CPTICDLink-Admin under Adminstration Section.passed
+Then Screen will be opened in a new tab with title CPTICD Links- Admin......passed
+When User clicks on the "TargetData" tab....................................passed
+And User Sort "ICD Group" in the TargetData tab.............................passed
+Then User should be able to sort "ICD Group" in the TargetData tab..........passed
+And Logout of the Application...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F6333-Establish Operational Audit Functionality - June Release.feature" name="US20932 - Ability to Sort Target table data 6" time="107.474199">
+<system-out><![CDATA[Given User logs with "iht_ittest05" as CPT ICD RA into JBPM Application.....passed
+When User should be able click on CPTICDLink-Admin under Adminstration Section.passed
+Then Screen will be opened in a new tab with title CPTICD Links- Admin......passed
+When User clicks on the "TargetData" tab....................................passed
+And User Sort "Category" in the TargetData tab..............................passed
+Then User should be able to sort "Category" in the TargetData tab...........passed
+And Logout of the Application...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

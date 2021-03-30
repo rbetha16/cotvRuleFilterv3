@@ -1,0 +1,64 @@
+<acceptance-test-run title="CPTICDLink Application Sample2" name="CPTICDLink Application Sample2" description="" steps="7" successful="1" failures="0" errors="1" skipped="5" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="16599" timestamp="2019-05-08T21:17:56.796+05:30" session-id="ef7fac8f65795c0cd75b2937bbdfa099">
+  <user-story id="smoke-feature" name="Smoke Feature" path="1.Smoke/QASmoke.feature"/>
+  <tags>
+    <tag name="Smoke Feature" type="feature"/>
+    <tag name="QACPTICDLINKSmoke" type="tag"/>
+    <tag name="Smoke" type="tag"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0" name="" description=""/>
+    </datasets>
+    <headers>
+      <header>User ID</header>
+      <header>Environment</header>
+    </headers>
+    <rows>
+      <row result="ERROR">
+        <value>iht_ittest05</value>
+        <value>QA</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {User ID=iht_ittest05, Environment=QA}" result="ERROR">
+    <test-group name="Given User logs to &quot;QA&quot; as CPTICDRA into JBPM Application" result="SUCCESS">
+      <test-step result="SUCCESS" duration="8040">
+        <description>Login CPTICD link smoke test: QA</description>
+      </test-step>
+    </test-group>
+    <test-group name="When RA clicks on CPT ICD Link in My Tasks" result="ERROR">
+      <test-step result="ERROR" duration="8472">
+        <screenshots>
+          <screenshot image="e478e28b0412d5ff4336dbdd5874cd55.png" source="pagesource669909540507289690.html.txt"/>
+        </screenshots>
+        <description>Click on CPTICD link</description>
+        <error>org.openqa.selenium.NoSuchElementException: Timed out after 4 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;dev-xd034&apos;, ip: &apos;10.130.12.36&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: driver.version: unknown</error>
+        <exception>org.openqa.selenium.NoSuchElementException:Timed out after 4 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;dev-xd034&apos;, ip: &apos;10.130.12.36&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: driver.version: unknown&#xd;
+[net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:150), net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102), net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:144), net.serenitybdd.core.pages.WebElementFacadeImpl.isEnabled(WebElementFacadeImpl.java:558), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.lang.reflect.Method.invoke(Method.java:483), net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45), com.sun.proxy.$Proxy27.isEnabled(Unknown Source), project.utilities.SeleniumUtils.Click_given_WebElement(SeleniumUtils.java:190), project.pageobjects.HomePage.NavigateToCPTICDLink(HomePage.java:129), project.feature.steps.definitions.CreateProposalStepDef.clickOnCPTICDLink(CreateProposalStepDef.java:44), project.feature.steps.definitions.CreateProposalStepDef$$EnhancerByCGLIB$$5f59d95d.CGLIB$clickOnCPTICDLink$7(&lt;generated&gt;), project.feature.steps.definitions.CreateProposalStepDef$$EnhancerByCGLIB$$5f59d95d$$FastClassByCGLIB$$f2349df6.invoke(&lt;generated&gt;), net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228), net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372), net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357), net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332), net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134), net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61), project.feature.steps.definitions.CreateProposalStepDef$$EnhancerByCGLIB$$5f59d95d.clickOnCPTICDLink(&lt;generated&gt;), project.features.steps.CreateProposalSteps.ra_clicks_on_CPT_ICD_Link_in_My_Tasks(CreateProposalSteps.java:21), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.lang.reflect.Method.invoke(Method.java:483), cucumber.runtime.Utils$1.call(Utils.java:37), cucumber.runtime.Timeout.timeout(Timeout.java:13), cucumber.runtime.Utils.invoke(Utils.java:31), cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38), cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37), cucumber.runtime.Runtime.runStep(Runtime.java:299), cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44), cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39), cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44), cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91), org.junit.runners.Suite.runChild(Suite.java:128), org.junit.runners.Suite.runChild(Suite.java:27), org.junit.runners.ParentRunner$3.run(ParentRunner.java:290), org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71), org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288), org.junit.runners.ParentRunner.access$000(ParentRunner.java:58), org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268), org.junit.runners.ParentRunner.run(ParentRunner.java:363), cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59), org.junit.runners.Suite.runChild(Suite.java:128), org.junit.runners.Suite.runChild(Suite.java:27), org.junit.runners.ParentRunner$3.run(ParentRunner.java:290), org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71), org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288), org.junit.runners.ParentRunner.access$000(ParentRunner.java:58), org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268), org.junit.runners.ParentRunner.run(ParentRunner.java:363), cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53), cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63), cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18), org.junit.runners.ParentRunner$3.run(ParentRunner.java:290), org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71), org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288), org.junit.runners.ParentRunner.access$000(ParentRunner.java:58), org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268), org.junit.runners.ParentRunner.run(ParentRunner.java:363), cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70), cucumber.api.junit.Cucumber.runChild(Cucumber.java:93), cucumber.api.junit.Cucumber.runChild(Cucumber.java:37), org.junit.runners.ParentRunner$3.run(ParentRunner.java:290), org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71), org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288), org.junit.runners.ParentRunner.access$000(ParentRunner.java:58), org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268), org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26), org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27), org.junit.runners.ParentRunner.run(ParentRunner.java:363), cucumber.api.junit.Cucumber.run(Cucumber.java:98), org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283), org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173), org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153), org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128), org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203), org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155), org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)]</exception>
+      </test-step>
+    </test-group>
+    <test-step result="SKIPPED" duration="7">
+      <description>Then RA should able to view the Group/Individual Task screen</description>
+    </test-step>
+    <test-step result="SKIPPED" duration="3">
+      <description>When RA clicks on &quot;Group&quot; Task Tab</description>
+    </test-step>
+    <test-step result="SKIPPED" duration="2">
+      <description>When RA clicks on &quot;Group&quot; Task Tab</description>
+    </test-step>
+    <test-step result="SKIPPED" duration="2">
+      <description>When RA clicks on &quot;Group&quot; Task Tab</description>
+    </test-step>
+    <test-step result="SKIPPED" duration="5">
+      <description>Then Logout of the Application</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

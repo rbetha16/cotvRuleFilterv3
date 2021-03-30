@@ -1,0 +1,42 @@
+-------------------------------------------------------------------------------
+Test set: | iht_ittest05 | OneUser:iht_ittest01 | dhasten |
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 2, Skipped: 2, Time elapsed: 0.012 sec <<< FAILURE! - in | iht_ittest05 | OneUser:iht_ittest01 | dhasten |
+When User filters by "OneUser:iht_ittest01" for Assignee dropdown(| iht_ittest05 | OneUser:iht_ittest01 | dhasten |)  Time elapsed: 0.011 sec  <<< ERROR!
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:592)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at project.pageobjects.AdminPage.validateAssigneeFilterDropDown(AdminPage.java:429)
+	at project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef.filter_TargetDataColumns(EstablishOperationalAuditFunctionalityStepDef.java:91)
+	at project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$60defdf5.CGLIB$filter_TargetDataColumns$7(<generated>)
+	at project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$60defdf5$$FastClassByCGLIB$$41081a00.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$60defdf5.filter_TargetDataColumns(<generated>)
+	at project.features.steps.EstablishOperationalAuditFunctionalitySteps.user_filters_by_for_Assignee_dropdown(EstablishOperationalAuditFunctionalitySteps.java:30)
+	at ?.When User filters by "OneUser:iht_ittest01" for Assignee dropdown(3.Regression/F6333-Establish Operational Audit Functionality - June Release.feature:10)
+
+| iht_ittest05 | OneUser:iht_ittest01 | dhasten |  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:592)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at project.pageobjects.AdminPage.validateAssigneeFilterDropDown(AdminPage.java:429)
+	at project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef.filter_TargetDataColumns(EstablishOperationalAuditFunctionalityStepDef.java:91)
+	at project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$60defdf5.CGLIB$filter_TargetDataColumns$7(<generated>)
+	at project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$60defdf5$$FastClassByCGLIB$$41081a00.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$60defdf5.filter_TargetDataColumns(<generated>)
+	at project.features.steps.EstablishOperationalAuditFunctionalitySteps.user_filters_by_for_Assignee_dropdown(EstablishOperationalAuditFunctionalitySteps.java:30)
+	at ?.When User filters by "OneUser:iht_ittest01" for Assignee dropdown(3.Regression/F6333-Establish Operational Audit Functionality - June Release.feature:10)
+

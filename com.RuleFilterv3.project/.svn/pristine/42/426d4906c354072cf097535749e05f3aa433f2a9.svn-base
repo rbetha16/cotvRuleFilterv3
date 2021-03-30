@@ -1,0 +1,1045 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 16,
+        "name": "US24466 - Dynamic filter for Assignee on Target view \u0026 Admin should have role of AdminOps",
+        "description": "",
+        "id": "f6333-establish-operational-audit-functionality---june-release.feature;us24466---dynamic-filter-for-assignee-on-target-view-\u0026-admin-should-have-role-of-adminops;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1887152200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.cleanUp(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11770383800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User logs with \"iht_ittest05\" as CPT ICD RA into JBPM Application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "iht_ittest05",
+                  "offset": 16
+                }
+              ],
+              "location": "CreateProposalSteps.user_logs_with_as_CPT_ICD_RA_into_JBPM_Application(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9210305800,
+              "error_message": "net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 4 seconds. Element not found\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.53.0\u0027, revision: \u002735ae25b1534ae328c771e0856c93e187490ca824\u0027, time: \u00272016-03-15 10:43:46\u0027\nSystem info: host: \u0027dev-xd019\u0027, ip: \u002710.130.12.50\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_25\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:150)\r\n\tat net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)\r\n\tat net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:39)\r\n\tat com.sun.proxy.$Proxy26.getWrappedElement(Unknown Source)\r\n\tat org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:49)\r\n\tat com.google.common.collect.Iterators$8.transform(Iterators.java:799)\r\n\tat com.google.common.collect.TransformedIterator.next(TransformedIterator.java:48)\r\n\tat com.google.common.collect.Iterators.addAll(Iterators.java:362)\r\n\tat com.google.common.collect.Lists.newArrayList(Lists.java:160)\r\n\tat com.google.common.collect.Lists.newArrayList(Lists.java:144)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:572)\r\n\tat net.thucydides.core.webdriver.WebDriverFacade.executeScript(WebDriverFacade.java:386)\r\n\tat project.utilities.SeleniumUtils.highlightElement(SeleniumUtils.java:181)\r\n\tat project.utilities.SeleniumUtils.is_WebElement_Displayed(SeleniumUtils.java:127)\r\n\tat project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef.validateAdminPage(EstablishOperationalAuditFunctionalityStepDef.java:52)\r\n\tat project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$c6dc17d9.CGLIB$validateAdminPage$1(\u003cgenerated\u003e)\r\n\tat project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$c6dc17d9$$FastClassByCGLIB$$c0cd70e5.invoke(\u003cgenerated\u003e)\r\n\tat net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)\r\n\tat net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)\r\n\tat net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)\r\n\tat net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)\r\n\tat net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)\r\n\tat net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)\r\n\tat project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$c6dc17d9.validateAdminPage(\u003cgenerated\u003e)\r\n\tat project.features.steps.EstablishOperationalAuditFunctionalitySteps.screen_will_be_opened_in_a_new_tab_with_title_CPTICD_Links_Admin(EstablishOperationalAuditFunctionalitySteps.java:20)\r\n\tat ✽.And Screen will be opened in a new tab with title CPTICD Links- Admin(3.Regression/F6333-Establish Operational Audit Functionality - June Release.feature:8)\r\n",
+              "status": "failed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# And User should be able click on CPTICDLink-Admin under Adminstration Section"
+              }
+            ],
+            "line": 8,
+            "name": "Screen will be opened in a new tab with title CPTICD Links- Admin",
+            "match": {
+              "location": "EstablishOperationalAuditFunctionalitySteps.screen_will_be_opened_in_a_new_tab_with_title_CPTICD_Links_Admin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User clicks on the \"TargetData\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TargetData",
+                  "offset": 20
+                }
+              ],
+              "location": "EstablishOperationalAuditFunctionalitySteps.user_clicks_on_the_tab(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User filters by \"OneUser:iht_ittest01\" for Assignee dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OneUser:iht_ittest01",
+                  "offset": 17
+                }
+              ],
+              "location": "EstablishOperationalAuditFunctionalitySteps.user_filters_by_for_Assignee_dropdown(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User applies filter on multiple columns and \"dhasten\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dhasten",
+                  "offset": 45
+                }
+              ],
+              "location": "EstablishOperationalAuditFunctionalitySteps.user_applies_filter_on_multiple_columns_and(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Logout of the Application",
+            "match": {
+              "location": "CreateProposalSteps.logout_of_the_Application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@US24466DynamicFilterforAssigneeonTargetviewAdminshouldhaveRoleofAdminOps"
+          },
+          {
+            "line": 1,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 57,
+        "name": "US20932 - Ability to Sort Target table data",
+        "description": "",
+        "id": "f6333-establish-operational-audit-functionality---june-release.feature;us20932---ability-to-sort-target-table-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1079800100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.cleanUp(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8779554800,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User logs with \"iht_ittest05\" as CPT ICD RA into JBPM Application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "iht_ittest05",
+                  "offset": 16
+                }
+              ],
+              "location": "CreateProposalSteps.user_logs_with_as_CPT_ICD_RA_into_JBPM_Application(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35383266400,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User should be able click on CPTICDLink-Admin under Adminstration Section",
+            "match": {
+              "location": "EstablishOperationalAuditFunctionalitySteps.user_should_be_able_click_on_CPTICDLink_Admin_under_Adminstration_Section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 793106000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Screen will be opened in a new tab with title CPTICD Links- Admin",
+            "match": {
+              "location": "EstablishOperationalAuditFunctionalitySteps.screen_will_be_opened_in_a_new_tab_with_title_CPTICD_Links_Admin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32700166800,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User clicks on the \"TargetData\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TargetData",
+                  "offset": 20
+                }
+              ],
+              "location": "EstablishOperationalAuditFunctionalitySteps.user_clicks_on_the_tab(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51315868300,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User Sort \"LCD/Article ID\" in the TargetData tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LCD/Article ID",
+                  "offset": 11
+                }
+              ],
+              "location": "EstablishOperationalAuditFunctionalitySteps.user_Sort_in_the_TargetData_tab(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83613200,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User should be able to sort \"LCD/Article ID\" in the TargetData tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LCD/Article ID",
+                  "offset": 29
+                }
+              ],
+              "location": "EstablishOperationalAuditFunctionalitySteps.user_should_be_able_to_sort_in_the_TargetData_tab(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9086277000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Logout of the Application",
+            "match": {
+              "location": "CreateProposalSteps.logout_of_the_Application()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Regression"
+          },
+          {
+            "line": 45,
+            "name": "@US20932AbilitytoSortTargetTabledata"
+          }
+        ]
+      },
+      {
+        "line": 58,
+        "name": "US20932 - Ability to Sort Target table data",
+        "description": "",
+        "id": "f6333-establish-operational-audit-functionality---june-release.feature;us20932---ability-to-sort-target-table-data;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1032565000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.cleanUp(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9792925700,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User logs with \"iht_ittest05\" as CPT ICD RA into JBPM Application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "iht_ittest05",
+                  "offset": 16
+                }
+              ],
+              "location": "CreateProposalSteps.user_logs_with_as_CPT_ICD_RA_into_JBPM_Application(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34934471600,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User should be able click on CPTICDLink-Admin under Adminstration Section",
+            "match": {
+              "location": "EstablishOperationalAuditFunctionalitySteps.user_should_be_able_click_on_CPTICDLink_Admin_under_Adminstration_Section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 729839800,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Screen will be opened in a new tab with title CPTICD Links- Admin",
+            "match": {
+              "location": "EstablishOperationalAuditFunctionalitySteps.screen_will_be_opened_in_a_new_tab_with_title_CPTICD_Links_Admin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18661347000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User clicks on the \"TargetData\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TargetData",
+                  "offset": 20
+                }
+              ],
+              "location": "EstablishOperationalAuditFunctionalitySteps.user_clicks_on_the_tab(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34251043900,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User Sort \"CPT Code\" in the TargetData tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CPT Code",
+                  "offset": 11
+                }
+              ],
+              "location": "EstablishOperationalAuditFunctionalitySteps.user_Sort_in_the_TargetData_tab(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83382600,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User should be able to sort \"CPT Code\" in the TargetData tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CPT Code",
+                  "offset": 29
+                }
+              ],
+              "location": "EstablishOperationalAuditFunctionalitySteps.user_should_be_able_to_sort_in_the_TargetData_tab(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8979328800,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Logout of the Application",
+            "match": {
+              "location": "CreateProposalSteps.logout_of_the_Application()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Regression"
+          },
+          {
+            "line": 45,
+            "name": "@US20932AbilitytoSortTargetTabledata"
+          }
+        ]
+      },
+      {
+        "line": 59,
+        "name": "US20932 - Ability to Sort Target table data",
+        "description": "",
+        "id": "f6333-establish-operational-audit-functionality---june-release.feature;us20932---ability-to-sort-target-table-data;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1268703000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.cleanUp(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8838319600,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User logs with \"iht_ittest05\" as CPT ICD RA into JBPM Application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "iht_ittest05",
+                  "offset": 16
+                }
+              ],
+              "location": "CreateProposalSteps.user_logs_with_as_CPT_ICD_RA_into_JBPM_Application(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34937857800,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User should be able click on CPTICDLink-Admin under Adminstration Section",
+            "match": {
+              "location": "EstablishOperationalAuditFunctionalitySteps.user_should_be_able_click_on_CPTICDLink_Admin_under_Adminstration_Section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 819929500,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Screen will be opened in a new tab with title CPTICD Links- Admin",
+            "match": {
+              "location": "EstablishOperationalAuditFunctionalitySteps.screen_will_be_opened_in_a_new_tab_with_title_CPTICD_Links_Admin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18749116700,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User clicks on the \"TargetData\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TargetData",
+                  "offset": 20
+                }
+              ],
+              "location": "EstablishOperationalAuditFunctionalitySteps.user_clicks_on_the_tab(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34178405900,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User Sort \"CPT Group\" in the TargetData tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CPT Group",
+                  "offset": 11
+                }
+              ],
+              "location": "EstablishOperationalAuditFunctionalitySteps.user_Sort_in_the_TargetData_tab(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95090700,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User should be able to sort \"CPT Group\" in the TargetData tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CPT Group",
+                  "offset": 29
+                }
+              ],
+              "location": "EstablishOperationalAuditFunctionalitySteps.user_should_be_able_to_sort_in_the_TargetData_tab(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8996853200,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Logout of the Application",
+            "match": {
+              "location": "CreateProposalSteps.logout_of_the_Application()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Regression"
+          },
+          {
+            "line": 45,
+            "name": "@US20932AbilitytoSortTargetTabledata"
+          }
+        ]
+      },
+      {
+        "line": 60,
+        "name": "US20932 - Ability to Sort Target table data",
+        "description": "",
+        "id": "f6333-establish-operational-audit-functionality---june-release.feature;us20932---ability-to-sort-target-table-data;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1042889100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.cleanUp(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10137828300,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User logs with \"iht_ittest05\" as CPT ICD RA into JBPM Application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "iht_ittest05",
+                  "offset": 16
+                }
+              ],
+              "location": "CreateProposalSteps.user_logs_with_as_CPT_ICD_RA_into_JBPM_Application(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34885682900,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User should be able click on CPTICDLink-Admin under Adminstration Section",
+            "match": {
+              "location": "EstablishOperationalAuditFunctionalitySteps.user_should_be_able_click_on_CPTICDLink_Admin_under_Adminstration_Section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 906186900,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Screen will be opened in a new tab with title CPTICD Links- Admin",
+            "match": {
+              "location": "EstablishOperationalAuditFunctionalitySteps.screen_will_be_opened_in_a_new_tab_with_title_CPTICD_Links_Admin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32743945700,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User clicks on the \"TargetData\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TargetData",
+                  "offset": 20
+                }
+              ],
+              "location": "EstablishOperationalAuditFunctionalitySteps.user_clicks_on_the_tab(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49058081400,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User Sort \"ICD Code\" in the TargetData tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ICD Code",
+                  "offset": 11
+                }
+              ],
+              "location": "EstablishOperationalAuditFunctionalitySteps.user_Sort_in_the_TargetData_tab(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79019500,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User should be able to sort \"ICD Code\" in the TargetData tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ICD Code",
+                  "offset": 29
+                }
+              ],
+              "location": "EstablishOperationalAuditFunctionalitySteps.user_should_be_able_to_sort_in_the_TargetData_tab(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8982669900,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Logout of the Application",
+            "match": {
+              "location": "CreateProposalSteps.logout_of_the_Application()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Regression"
+          },
+          {
+            "line": 45,
+            "name": "@US20932AbilitytoSortTargetTabledata"
+          }
+        ]
+      },
+      {
+        "line": 61,
+        "name": "US20932 - Ability to Sort Target table data",
+        "description": "",
+        "id": "f6333-establish-operational-audit-functionality---june-release.feature;us20932---ability-to-sort-target-table-data;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 1055425600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.cleanUp(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8884196400,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User logs with \"iht_ittest05\" as CPT ICD RA into JBPM Application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "iht_ittest05",
+                  "offset": 16
+                }
+              ],
+              "location": "CreateProposalSteps.user_logs_with_as_CPT_ICD_RA_into_JBPM_Application(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34954974500,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User should be able click on CPTICDLink-Admin under Adminstration Section",
+            "match": {
+              "location": "EstablishOperationalAuditFunctionalitySteps.user_should_be_able_click_on_CPTICDLink_Admin_under_Adminstration_Section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 816835300,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Screen will be opened in a new tab with title CPTICD Links- Admin",
+            "match": {
+              "location": "EstablishOperationalAuditFunctionalitySteps.screen_will_be_opened_in_a_new_tab_with_title_CPTICD_Links_Admin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20434639100,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User clicks on the \"TargetData\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TargetData",
+                  "offset": 20
+                }
+              ],
+              "location": "EstablishOperationalAuditFunctionalitySteps.user_clicks_on_the_tab(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34160411400,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User Sort \"ICD Group\" in the TargetData tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ICD Group",
+                  "offset": 11
+                }
+              ],
+              "location": "EstablishOperationalAuditFunctionalitySteps.user_Sort_in_the_TargetData_tab(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74082300,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User should be able to sort \"ICD Group\" in the TargetData tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ICD Group",
+                  "offset": 29
+                }
+              ],
+              "location": "EstablishOperationalAuditFunctionalitySteps.user_should_be_able_to_sort_in_the_TargetData_tab(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8915469800,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Logout of the Application",
+            "match": {
+              "location": "CreateProposalSteps.logout_of_the_Application()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Regression"
+          },
+          {
+            "line": 45,
+            "name": "@US20932AbilitytoSortTargetTabledata"
+          }
+        ]
+      },
+      {
+        "line": 62,
+        "name": "US20932 - Ability to Sort Target table data",
+        "description": "",
+        "id": "f6333-establish-operational-audit-functionality---june-release.feature;us20932---ability-to-sort-target-table-data;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 1058447800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.cleanUp(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8553275000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User logs with \"iht_ittest05\" as CPT ICD RA into JBPM Application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "iht_ittest05",
+                  "offset": 16
+                }
+              ],
+              "location": "CreateProposalSteps.user_logs_with_as_CPT_ICD_RA_into_JBPM_Application(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34906862900,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User should be able click on CPTICDLink-Admin under Adminstration Section",
+            "match": {
+              "location": "EstablishOperationalAuditFunctionalitySteps.user_should_be_able_click_on_CPTICDLink_Admin_under_Adminstration_Section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 780209500,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Screen will be opened in a new tab with title CPTICD Links- Admin",
+            "match": {
+              "location": "EstablishOperationalAuditFunctionalitySteps.screen_will_be_opened_in_a_new_tab_with_title_CPTICD_Links_Admin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19051940800,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User clicks on the \"TargetData\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TargetData",
+                  "offset": 20
+                }
+              ],
+              "location": "EstablishOperationalAuditFunctionalitySteps.user_clicks_on_the_tab(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34180600000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User Sort \"Category\" in the TargetData tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Category",
+                  "offset": 11
+                }
+              ],
+              "location": "EstablishOperationalAuditFunctionalitySteps.user_Sort_in_the_TargetData_tab(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80211700,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User should be able to sort \"Category\" in the TargetData tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Category",
+                  "offset": 29
+                }
+              ],
+              "location": "EstablishOperationalAuditFunctionalitySteps.user_should_be_able_to_sort_in_the_TargetData_tab(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8862651700,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Logout of the Application",
+            "match": {
+              "location": "CreateProposalSteps.logout_of_the_Application()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Regression"
+          },
+          {
+            "line": 45,
+            "name": "@US20932AbilitytoSortTargetTabledata"
+          }
+        ]
+      }
+    ],
+    "name": "F6333-Establish Operational Audit Functionality - June Release.feature",
+    "description": "",
+    "id": "f6333-establish-operational-audit-functionality---june-release.feature",
+    "keyword": "Feature",
+    "uri": "3.Regression/F6333-Establish Operational Audit Functionality - June Release.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Regression"
+      }
+    ]
+  }
+]

@@ -1,0 +1,57 @@
+<acceptance-test-run title="US20932-Ability to Filter Target Table data" name="US20932-Ability to Filter Target Table data" description="" steps="6" successful="1" failures="0" errors="1" skipped="4" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="22574" timestamp="2019-05-13T15:50:45.936+05:30" session-id="d1e00b8da1abc9edc4e41c464124b695">
+  <user-story id="f6333-establish-operational-audit-functionality---june-release.feature" name="F6333-Establish Operational Audit Functionality - June Release.feature" path="3.Regression/F6333-Establish Operational Audit Functionality - June Release.feature"/>
+  <tags>
+    <tag name="F6333-Establish Operational Audit Functionality - June Release.feature" type="feature"/>
+    <tag name="Regression" type="tag"/>
+    <tag name="US20932AbilitytoFilterTargetTabledata" type="tag"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0" name="" description=""/>
+    </datasets>
+    <headers>
+      <header>User ID</header>
+    </headers>
+    <rows>
+      <row result="ERROR">
+        <value>iht_ittest05</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {User ID=iht_ittest05}" result="ERROR">
+    <test-group name="When User logs with &quot;iht_ittest05&quot; as CPT ICD RA into JBPM Application" result="SUCCESS">
+      <test-step result="SUCCESS" duration="11383">
+        <description>Login CPTICD link: iht_ittest05</description>
+      </test-step>
+    </test-group>
+    <test-group name="And User should be able click on CPTICDLink-Admin under Adminstration Section" result="ERROR">
+      <test-step result="ERROR" duration="8078">
+        <screenshots>
+          <screenshot image="4eac01d47e4fa5150b49a3874d8059f2.png" source="pagesource1490349729885586378.html.txt"/>
+        </screenshots>
+        <description>Clicks on CPTICD admin link</description>
+        <error>org.openqa.selenium.ElementNotVisibleException: Timed out after 4 seconds. Element not available
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;dev-xd034&apos;, ip: &apos;10.130.12.36&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: driver.version: RemoteWebDriver</error>
+        <exception>org.openqa.selenium.ElementNotVisibleException:Timed out after 4 seconds. Element not available
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;dev-xd034&apos;, ip: &apos;10.130.12.36&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: driver.version: RemoteWebDriver&#xd;
+[net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:147), net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102), net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:39), com.sun.proxy.$Proxy26.getWrappedElement(Unknown Source), org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:49), com.google.common.collect.Iterators$8.transform(Iterators.java:799), com.google.common.collect.TransformedIterator.next(TransformedIterator.java:48), com.google.common.collect.Iterators.addAll(Iterators.java:362), com.google.common.collect.Lists.newArrayList(Lists.java:160), com.google.common.collect.Lists.newArrayList(Lists.java:144), org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:572), net.thucydides.core.webdriver.WebDriverFacade.executeScript(WebDriverFacade.java:386), project.utilities.SeleniumUtils.highlightElement(SeleniumUtils.java:181), project.utilities.SeleniumUtils.Click_given_WebElement(SeleniumUtils.java:192), project.pageobjects.HomePage.NavigateToCPTICDAdminLink(HomePage.java:164), project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef.ClicksOnCPTICDAdminLink(EstablishOperationalAuditFunctionalityStepDef.java:42), project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$ca76943a.CGLIB$ClicksOnCPTICDAdminLink$0(&lt;generated&gt;), project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$ca76943a$$FastClassByCGLIB$$5438c11e.invoke(&lt;generated&gt;), net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228), net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372), net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357), net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332), net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134), net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61), project.feature.steps.definitions.EstablishOperationalAuditFunctionalityStepDef$$EnhancerByCGLIB$$ca76943a.ClicksOnCPTICDAdminLink(&lt;generated&gt;), project.features.steps.EstablishOperationalAuditFunctionalitySteps.user_should_be_able_click_on_CPTICDLink_Admin_under_Adminstration_Section(EstablishOperationalAuditFunctionalitySteps.java:15), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.lang.reflect.Method.invoke(Method.java:483), cucumber.runtime.Utils$1.call(Utils.java:37), cucumber.runtime.Timeout.timeout(Timeout.java:13), cucumber.runtime.Utils.invoke(Utils.java:31), cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38), cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37), cucumber.runtime.Runtime.runStep(Runtime.java:299), cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44), cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39), cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44), cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91), org.junit.runners.Suite.runChild(Suite.java:128), org.junit.runners.Suite.runChild(Suite.java:27), org.junit.runners.ParentRunner$3.run(ParentRunner.java:290), org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71), org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288), org.junit.runners.ParentRunner.access$000(ParentRunner.java:58), org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268), org.junit.runners.ParentRunner.run(ParentRunner.java:363), cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59), org.junit.runners.Suite.runChild(Suite.java:128), org.junit.runners.Suite.runChild(Suite.java:27), org.junit.runners.ParentRunner$3.run(ParentRunner.java:290), org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71), org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288), org.junit.runners.ParentRunner.access$000(ParentRunner.java:58), org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268), org.junit.runners.ParentRunner.run(ParentRunner.java:363), cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53), cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63), cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18), org.junit.runners.ParentRunner$3.run(ParentRunner.java:290), org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71), org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288), org.junit.runners.ParentRunner.access$000(ParentRunner.java:58), org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268), org.junit.runners.ParentRunner.run(ParentRunner.java:363), cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70), cucumber.api.junit.Cucumber.runChild(Cucumber.java:93), cucumber.api.junit.Cucumber.runChild(Cucumber.java:37), org.junit.runners.ParentRunner$3.run(ParentRunner.java:290), org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71), org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288), org.junit.runners.ParentRunner.access$000(ParentRunner.java:58), org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268), org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26), org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27), org.junit.runners.ParentRunner.run(ParentRunner.java:363), cucumber.api.junit.Cucumber.run(Cucumber.java:98), org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86), org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)]</exception>
+      </test-step>
+    </test-group>
+    <test-step result="SKIPPED" duration="9">
+      <description>And Screen will be opened in a new tab with title CPTICD Links- Admin</description>
+    </test-step>
+    <test-step result="SKIPPED" duration="5">
+      <description>And User clicks on the &quot;TargetData&quot; tab</description>
+    </test-step>
+    <test-step result="SKIPPED" duration="3">
+      <description>When User applies filter on all the columns in TargetData tab</description>
+    </test-step>
+    <test-step result="SKIPPED" duration="6">
+      <description>Then Logout of the Application</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

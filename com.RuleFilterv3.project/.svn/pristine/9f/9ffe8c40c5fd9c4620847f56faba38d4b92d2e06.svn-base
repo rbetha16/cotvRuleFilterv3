@@ -1,0 +1,265 @@
+<acceptance-test-run title="US20932 - Ability to Sort Target table data" name="US20932 - Ability to Sort Target table data" description="" steps="42" successful="42" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="709727" timestamp="2019-03-19T16:09:26.022+05:30" session-id="e0c99eeab6b089b86c8b77aa033c4110">
+  <user-story id="f6333-establish-operational-audit-functionality---june-release.feature" name="F6333-Establish Operational Audit Functionality - June Release.feature" path="3.Regression/F6333-Establish Operational Audit Functionality - June Release.feature"/>
+  <tags>
+    <tag name="F6333-Establish Operational Audit Functionality - June Release.feature" type="feature"/>
+    <tag name="Regression" type="tag"/>
+    <tag name="US20932AbilitytoSortTargetTabledata" type="tag"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0" name="" description=""/>
+    </datasets>
+    <headers>
+      <header>User ID</header>
+      <header>Column</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>iht_ittest05</value>
+        <value>LCD/Article ID</value>
+      </row>
+      <row result="SUCCESS">
+        <value>iht_ittest05</value>
+        <value>CPT Code</value>
+      </row>
+      <row result="SUCCESS">
+        <value>iht_ittest05</value>
+        <value>CPT Group</value>
+      </row>
+      <row result="SUCCESS">
+        <value>iht_ittest05</value>
+        <value>ICD Code</value>
+      </row>
+      <row result="SUCCESS">
+        <value>iht_ittest05</value>
+        <value>ICD Group</value>
+      </row>
+      <row result="SUCCESS">
+        <value>iht_ittest05</value>
+        <value>Category</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {User ID=iht_ittest05, Column=LCD/Article ID}" result="SUCCESS">
+    <test-group name="Given User logs with &quot;iht_ittest05&quot; as CPT ICD RA into JBPM Application" result="SUCCESS">
+      <test-step result="SUCCESS" duration="8752">
+        <description>Login CPTICD link: iht_ittest05</description>
+      </test-step>
+    </test-group>
+    <test-group name="When User should be able click on CPTICDLink-Admin under Adminstration Section" result="SUCCESS">
+      <test-step result="SUCCESS" duration="35361">
+        <description>Clicks on CPTICD admin link</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then Screen will be opened in a new tab with title CPTICD Links- Admin" result="SUCCESS">
+      <test-step result="SUCCESS" duration="791">
+        <description>Validate admin page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When User clicks on the &quot;TargetData&quot; tab" result="SUCCESS">
+      <test-step result="SUCCESS" duration="32701">
+        <description>Clicks on target data tab</description>
+      </test-step>
+    </test-group>
+    <test-group name="And User Sort &quot;LCD/Article ID&quot; in the TargetData tab" result="SUCCESS">
+      <test-step result="SUCCESS" duration="51300">
+        <description>User  sort  target data  tab: LCD/Article ID</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then User should be able to sort &quot;LCD/Article ID&quot; in the TargetData tab" result="SUCCESS">
+      <test-step result="SUCCESS" duration="83">
+        <description>User should be able to sort in the  target data: LCD/Article ID</description>
+      </test-step>
+    </test-group>
+    <test-group name="And Logout of the Application" result="SUCCESS">
+      <test-step result="SUCCESS" duration="9087">
+        <description>User logsout</description>
+      </test-step>
+    </test-group>
+  </test-group>
+  <test-group name="[1] {User ID=iht_ittest05, Column=CPT Code}" result="SUCCESS">
+    <test-group name="Given User logs with &quot;iht_ittest05&quot; as CPT ICD RA into JBPM Application" result="SUCCESS">
+      <test-step result="SUCCESS" duration="9774">
+        <description>Login CPTICD link: iht_ittest05</description>
+      </test-step>
+    </test-group>
+    <test-group name="When User should be able click on CPTICDLink-Admin under Adminstration Section" result="SUCCESS">
+      <test-step result="SUCCESS" duration="34913">
+        <description>Clicks on CPTICD admin link</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then Screen will be opened in a new tab with title CPTICD Links- Admin" result="SUCCESS">
+      <test-step result="SUCCESS" duration="730">
+        <description>Validate admin page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When User clicks on the &quot;TargetData&quot; tab" result="SUCCESS">
+      <test-step result="SUCCESS" duration="18662">
+        <description>Clicks on target data tab</description>
+      </test-step>
+    </test-group>
+    <test-group name="And User Sort &quot;CPT Code&quot; in the TargetData tab" result="SUCCESS">
+      <test-step result="SUCCESS" duration="34255">
+        <description>User  sort  target data  tab: CPT Code</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then User should be able to sort &quot;CPT Code&quot; in the TargetData tab" result="SUCCESS">
+      <test-step result="SUCCESS" duration="83">
+        <description>User should be able to sort in the  target data: CPT Code</description>
+      </test-step>
+    </test-group>
+    <test-group name="And Logout of the Application" result="SUCCESS">
+      <test-step result="SUCCESS" duration="8979">
+        <description>User logsout</description>
+      </test-step>
+    </test-group>
+  </test-group>
+  <test-group name="[1] {User ID=iht_ittest05, Column=CPT Group}" result="SUCCESS">
+    <test-group name="Given User logs with &quot;iht_ittest05&quot; as CPT ICD RA into JBPM Application" result="SUCCESS">
+      <test-step result="SUCCESS" duration="8821">
+        <description>Login CPTICD link: iht_ittest05</description>
+      </test-step>
+    </test-group>
+    <test-group name="When User should be able click on CPTICDLink-Admin under Adminstration Section" result="SUCCESS">
+      <test-step result="SUCCESS" duration="34918">
+        <description>Clicks on CPTICD admin link</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then Screen will be opened in a new tab with title CPTICD Links- Admin" result="SUCCESS">
+      <test-step result="SUCCESS" duration="819">
+        <description>Validate admin page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When User clicks on the &quot;TargetData&quot; tab" result="SUCCESS">
+      <test-step result="SUCCESS" duration="18749">
+        <description>Clicks on target data tab</description>
+      </test-step>
+    </test-group>
+    <test-group name="And User Sort &quot;CPT Group&quot; in the TargetData tab" result="SUCCESS">
+      <test-step result="SUCCESS" duration="34179">
+        <description>User  sort  target data  tab: CPT Group</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then User should be able to sort &quot;CPT Group&quot; in the TargetData tab" result="SUCCESS">
+      <test-step result="SUCCESS" duration="93">
+        <description>User should be able to sort in the  target data: CPT Group</description>
+      </test-step>
+    </test-group>
+    <test-group name="And Logout of the Application" result="SUCCESS">
+      <test-step result="SUCCESS" duration="8997">
+        <description>User logsout</description>
+      </test-step>
+    </test-group>
+  </test-group>
+  <test-group name="[1] {User ID=iht_ittest05, Column=ICD Code}" result="SUCCESS">
+    <test-group name="Given User logs with &quot;iht_ittest05&quot; as CPT ICD RA into JBPM Application" result="SUCCESS">
+      <test-step result="SUCCESS" duration="10120">
+        <description>Login CPTICD link: iht_ittest05</description>
+      </test-step>
+    </test-group>
+    <test-group name="When User should be able click on CPTICDLink-Admin under Adminstration Section" result="SUCCESS">
+      <test-step result="SUCCESS" duration="34858">
+        <description>Clicks on CPTICD admin link</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then Screen will be opened in a new tab with title CPTICD Links- Admin" result="SUCCESS">
+      <test-step result="SUCCESS" duration="904">
+        <description>Validate admin page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When User clicks on the &quot;TargetData&quot; tab" result="SUCCESS">
+      <test-step result="SUCCESS" duration="32739">
+        <description>Clicks on target data tab</description>
+      </test-step>
+    </test-group>
+    <test-group name="And User Sort &quot;ICD Code&quot; in the TargetData tab" result="SUCCESS">
+      <test-step result="SUCCESS" duration="49063">
+        <description>User  sort  target data  tab: ICD Code</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then User should be able to sort &quot;ICD Code&quot; in the TargetData tab" result="SUCCESS">
+      <test-step result="SUCCESS" duration="78">
+        <description>User should be able to sort in the  target data: ICD Code</description>
+      </test-step>
+    </test-group>
+    <test-group name="And Logout of the Application" result="SUCCESS">
+      <test-step result="SUCCESS" duration="8982">
+        <description>User logsout</description>
+      </test-step>
+    </test-group>
+  </test-group>
+  <test-group name="[1] {User ID=iht_ittest05, Column=ICD Group}" result="SUCCESS">
+    <test-group name="Given User logs with &quot;iht_ittest05&quot; as CPT ICD RA into JBPM Application" result="SUCCESS">
+      <test-step result="SUCCESS" duration="8869">
+        <description>Login CPTICD link: iht_ittest05</description>
+      </test-step>
+    </test-group>
+    <test-group name="When User should be able click on CPTICDLink-Admin under Adminstration Section" result="SUCCESS">
+      <test-step result="SUCCESS" duration="34941">
+        <description>Clicks on CPTICD admin link</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then Screen will be opened in a new tab with title CPTICD Links- Admin" result="SUCCESS">
+      <test-step result="SUCCESS" duration="816">
+        <description>Validate admin page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When User clicks on the &quot;TargetData&quot; tab" result="SUCCESS">
+      <test-step result="SUCCESS" duration="20434">
+        <description>Clicks on target data tab</description>
+      </test-step>
+    </test-group>
+    <test-group name="And User Sort &quot;ICD Group&quot; in the TargetData tab" result="SUCCESS">
+      <test-step result="SUCCESS" duration="34162">
+        <description>User  sort  target data  tab: ICD Group</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then User should be able to sort &quot;ICD Group&quot; in the TargetData tab" result="SUCCESS">
+      <test-step result="SUCCESS" duration="73">
+        <description>User should be able to sort in the  target data: ICD Group</description>
+      </test-step>
+    </test-group>
+    <test-group name="And Logout of the Application" result="SUCCESS">
+      <test-step result="SUCCESS" duration="8915">
+        <description>User logsout</description>
+      </test-step>
+    </test-group>
+  </test-group>
+  <test-group name="[1] {User ID=iht_ittest05, Column=Category}" result="SUCCESS">
+    <test-group name="Given User logs with &quot;iht_ittest05&quot; as CPT ICD RA into JBPM Application" result="SUCCESS">
+      <test-step result="SUCCESS" duration="8538">
+        <description>Login CPTICD link: iht_ittest05</description>
+      </test-step>
+    </test-group>
+    <test-group name="When User should be able click on CPTICDLink-Admin under Adminstration Section" result="SUCCESS">
+      <test-step result="SUCCESS" duration="34890">
+        <description>Clicks on CPTICD admin link</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then Screen will be opened in a new tab with title CPTICD Links- Admin" result="SUCCESS">
+      <test-step result="SUCCESS" duration="779">
+        <description>Validate admin page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When User clicks on the &quot;TargetData&quot; tab" result="SUCCESS">
+      <test-step result="SUCCESS" duration="19052">
+        <description>Clicks on target data tab</description>
+      </test-step>
+    </test-group>
+    <test-group name="And User Sort &quot;Category&quot; in the TargetData tab" result="SUCCESS">
+      <test-step result="SUCCESS" duration="34171">
+        <description>User  sort  target data  tab: Category</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then User should be able to sort &quot;Category&quot; in the TargetData tab" result="SUCCESS">
+      <test-step result="SUCCESS" duration="79">
+        <description>User should be able to sort in the  target data: Category</description>
+      </test-step>
+    </test-group>
+    <test-group name="And Logout of the Application" result="SUCCESS">
+      <test-step result="SUCCESS" duration="8858">
+        <description>User logsout</description>
+      </test-step>
+    </test-group>
+  </test-group>
+</acceptance-test-run>

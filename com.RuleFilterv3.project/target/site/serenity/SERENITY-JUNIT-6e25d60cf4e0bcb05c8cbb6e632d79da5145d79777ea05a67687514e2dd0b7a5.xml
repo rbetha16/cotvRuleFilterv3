@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Smoke Feature" skipped="0" tests="1" time="16.6" timestamp="2019-05-128 09:17:56"><testcase name="CPTICDLink Application Sample2"><error message="Timed out after 4 seconds. Element not found&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'&#10;System info: host: 'dev-xd034', ip: '10.130.12.36', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'&#10;Driver info: driver.version: unknown&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'&#10;System info: host: 'dev-xd034', ip: '10.130.12.36', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">Timed out after 4 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'dev-xd034', ip: '10.130.12.36', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'dev-xd034', ip: '10.130.12.36', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: driver.version: unknown</error><system-err>Timed out after 4 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'dev-xd034', ip: '10.130.12.36', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'dev-xd034', ip: '10.130.12.36', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: driver.version: unknown&#13;
+net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:150)&#13;
+net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)&#13;
+net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:144)&#13;
+net.serenitybdd.core.pages.WebElementFacadeImpl.isEnabled(WebElementFacadeImpl.java:558)&#13;
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+java.lang.reflect.Method.invoke(Method.java:483)&#13;
+net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)&#13;
+com.sun.proxy.$Proxy27.isEnabled(Unknown Source)&#13;
+project.utilities.SeleniumUtils.Click_given_WebElement(SeleniumUtils.java:190)&#13;
+project.pageobjects.HomePage.NavigateToCPTICDLink(HomePage.java:129)&#13;
+project.feature.steps.definitions.CreateProposalStepDef.clickOnCPTICDLink(CreateProposalStepDef.java:44)&#13;
+project.feature.steps.definitions.CreateProposalStepDef$$EnhancerByCGLIB$$5f59d95d.CGLIB$clickOnCPTICDLink$7(&lt;generated&gt;)&#13;
+project.feature.steps.definitions.CreateProposalStepDef$$EnhancerByCGLIB$$5f59d95d$$FastClassByCGLIB$$f2349df6.invoke(&lt;generated&gt;)&#13;
+net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)&#13;
+net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)&#13;
+net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)&#13;
+net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)&#13;
+net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)&#13;
+net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)&#13;
+project.feature.steps.definitions.CreateProposalStepDef$$EnhancerByCGLIB$$5f59d95d.clickOnCPTICDLink(&lt;generated&gt;)&#13;
+project.features.steps.CreateProposalSteps.ra_clicks_on_CPT_ICD_Link_in_My_Tasks(CreateProposalSteps.java:21)&#13;
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+java.lang.reflect.Method.invoke(Method.java:483)&#13;
+cucumber.runtime.Utils$1.call(Utils.java:37)&#13;
+cucumber.runtime.Timeout.timeout(Timeout.java:13)&#13;
+cucumber.runtime.Utils.invoke(Utils.java:31)&#13;
+cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)&#13;
+cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)&#13;
+cucumber.runtime.Runtime.runStep(Runtime.java:299)&#13;
+cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)&#13;
+cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)&#13;
+cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)&#13;
+cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)&#13;
+org.junit.runners.Suite.runChild(Suite.java:128)&#13;
+org.junit.runners.Suite.runChild(Suite.java:27)&#13;
+org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)&#13;
+org.junit.runners.Suite.runChild(Suite.java:128)&#13;
+org.junit.runners.Suite.runChild(Suite.java:27)&#13;
+org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)&#13;
+cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)&#13;
+cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)&#13;
+org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)&#13;
+cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)&#13;
+cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)&#13;
+org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#13;
+org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+cucumber.api.junit.Cucumber.run(Cucumber.java:98)&#13;
+org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)&#13;
+org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)&#13;
+org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)&#13;
+org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)&#13;
+org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)&#13;
+org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)&#13;
+org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)&#13;
+</system-err></testcase></testsuite>
